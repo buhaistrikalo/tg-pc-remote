@@ -5,6 +5,16 @@
         "reply": "Успешный выход из системы 🔥"
     },
     {
+        "buttonTitle": "Выключить пк",
+        "action": "shutdown /s",
+        "reply": "ПК выключится через 1 минуту 🔥"
+    },
+    {
+        "buttonTitle": "Отменить выключение пк",
+        "action": "shutdown -a",
+        "reply": "Выключение пк отменено 🔥"
+    },
+    {
         "buttonTitle": "Firefox",
         "action": "\"C:/Program Files/Mozilla Firefox/firefox.exe\"",
         "reply": "Firefox открыт 🔥"
