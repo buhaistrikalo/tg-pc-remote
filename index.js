@@ -8,7 +8,7 @@ const fs = require('fs')
 let config = JSON.parse(fs.readFileSync('api/commands.json', 'utf8'));
 
 const mainMenu = {
-    "keyboard": [config.map(e => e.buttonTitle)]
+    "keyboard": config.map(e => [e.buttonTitle])
 }
 
 bot.on('message', (msg) => {
